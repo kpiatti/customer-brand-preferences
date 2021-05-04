@@ -1,0 +1,21 @@
+{
+    "debugBreakpointsState": {
+        "breakpoints": [
+            {
+                "id": 1,
+                "path": "C:/Users/kpiat/Data Science Stuff/Course 3-Data Program/Customer Brand Preferences/scripts/c3t2-kp-brand-pref-preprocess-eda.R",
+                "line_number": 16,
+                "function_steps": "",
+                "function_name": "toplevel",
+                "state": 1,
+                "editor_state": 1,
+                "editor_line_number": 16,
+                "is_pending_debug_completion": false,
+                "needs_updated_steps": true,
+                "type": 1,
+                "is_package_breakpoint": false,
+                "package_name": ""
+            }
+        ]
+    }
+}
