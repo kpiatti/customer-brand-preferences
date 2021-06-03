@@ -59,9 +59,15 @@ is.factor(cln_surveydata$brand)
 hist(cln_surveydata$salary)
 hist(cln_surveydata$age)
 hist(cln_surveydata$credit)
-barplot(table(cln_surveydata$edu))
-barplot(table(cln_surveydata$car))
-barplot(table(cln_surveydata$region))
+barplot(table(cln_surveydata$edu), 
+        main = "Education Level",
+        ylab = "Count")
+barplot(table(cln_surveydata$car),
+        main = "Car Type",
+        ylab = "Count")
+barplot(table(cln_surveydata$region),
+        main = "Region",
+        ylab = "Count")
 
 #all predictor vars are aprox. uniformly distributed across bins/categories 
 
